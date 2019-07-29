@@ -4,7 +4,7 @@
     <div class="input-group">
         <input type="search" id="<?php echo $unique_id; ?>" class="form-control" name="s"
                value="<?php the_search_query(); ?>"
-               placeholder="<?php _e( 'Search', 'udemy' ); ?>"/>
+               placeholder="<?php _e( 'Search', 'devert' ); ?>"/>
         <span class="input-group-btn">
             <button type="submit" class="btn btn-danger"><i class="icon-search"></i></button>
         </span>
